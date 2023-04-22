@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Unbounded:wght@800&display=swap');
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    background-image: url('/assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    min-height: 100%;
+}
+html {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.font-unbounded {
+    font-family: 'Unbounded', cursive;
+}
+
+.unselectable {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

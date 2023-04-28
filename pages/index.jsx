@@ -24,7 +24,7 @@ function Home() {
 			</Head>
 			<Header />
 			<div className="flex justify-center">
-				<div className="flex flex-col c1:flex-row gap-16 mt-[260px] c3:mt-[100px] items-center">
+				<div className="flex flex-col c1:flex-row gap-16 mt-[200px] c3:mt-[100px] items-center">
 					<div className="flex">
 						<Image src={avatar} sizes="300" width="300" height="300" priority className="rounded-full max-w-[300px] max-h-[300px] unselectable" alt="Avatar" />
 						<Image src={note} sizes="60" width="60" height="60" alt="Note" priority className="max-w-[60px] max-h-[60px] unselectable absolute mt-[220px] ml-[220px] border-[#41110f] rounded-full border-[5px]" />

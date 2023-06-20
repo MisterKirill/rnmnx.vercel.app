@@ -42,7 +42,7 @@ function Home() {
 			<div className="flex justify-center mt-5">
 				<div className="p-5 bg-[#41110f] c2:rounded-xl w-screen c2:w-auto flex flex-col gap-3 items-center">
 					<span className="text-white font-extrabold text-[25px] flex items-center gap-3"><i className="bi bi-youtube text-[30px]" /> ПОСЛЕДНИЙ РЕЛИЗ</span>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/dTRNN77efaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/dTRNN77efaA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 				</div>
 			</div>
 			<span className="fixed bottom-0 left-0 mb-5 ml-5 text-[20px] font-bold text-white opacity-40 unselectable">

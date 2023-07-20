@@ -18,7 +18,6 @@ function Home() {
 				<meta property="og:title" content="RNMNX | Phonk продюсер" />
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://rnmnx.vercel.app" />
-				<meta property="og:image" content="http://my.site.com/images/thumb.png" />
 				<meta property="og:description" content="Московский фантазёр, запоминающийся загадочностью, строя события о любви, вдохновляясь музой. &quot;18.03 - и беды позади&quot;" />
 				<meta name="theme-color" content="#C5231E" />
 			</Head>

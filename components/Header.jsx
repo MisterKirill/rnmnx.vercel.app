@@ -28,16 +28,12 @@ function Header() {
                         <a href="https://t.me/rnmnx" target="_blank" className="hover:mt-1"><i onMouseOver={() => changeTheme('#0088cc')} onMouseOut={() => changeTheme()} className="bi bi-telegram text-white text-[40px]" /></a>
                         <span className="text-white absolute mt-[55px] opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none">Telegram</span>
                     </div>
-                    {/* <div className="flex flex-col items-center group">
-                        <a href="https://vk.com/rnmnx" target="_blank" className="hover:mt-1"><Image onMouseOver={() => changeTheme('#0077ff')} onMouseOut={() => changeTheme()} src={vk} width="40" alt="VK" /></a>
-                        <span className="text-white absolute mt-[45px] opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none">VK</span>
-                    </div> */}
                     <div className="flex flex-col items-center group">
                         <a href="https://music.apple.com/us/artist/rnmnx/1615425871" target="_blank" className="hover:mt-1"><i onMouseOver={() => changeTheme('#c2cad7')} onMouseOut={() => changeTheme()} className="bi bi-music-note-beamed text-white text-[40px]" /></a>
                         <span className="text-white absolute mt-[55px] opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none">Apple Music</span>
                     </div>
                     <div className="flex flex-col items-center group">
-                        <a href="https://www.youtube.com/@rnmnxoff" target="_blank" className="hover:mt-1"><i onMouseOver={() => changeTheme('#ff0000')} onMouseOut={() => changeTheme()} className="bi bi-youtube text-white text-[40px]" /></a>
+                        <a href="https://www.youtube.com/@rnmnx" target="_blank" className="hover:mt-1"><i onMouseOver={() => changeTheme('#ff0000')} onMouseOut={() => changeTheme()} className="bi bi-youtube text-white text-[40px]" /></a>
                         <span className="text-white absolute mt-[55px] opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none">YouTube</span>
                     </div>
                     <div className="flex flex-col items-center group">
